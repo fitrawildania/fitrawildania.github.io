@@ -1,0 +1,137 @@
+:root {
+	--clr-dark: rgb(31 41 55);
+	--clr-light: rgb(107 114 128);
+	--clr-gray:  rgb(107 114 128);
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+	font-family: 'Nunito', sans-serif;
+}
+
+.nav-link{
+	font-weight: 500;
+	font-size: 0.875rem;
+	color: var(--clr-light)
+}
+
+.nav-link.active,
+.navbar-brand{
+	color: var(--clr-dark) !important;
+}
+
+.main-header{
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: black;
+}
+
+
+@media (min-width: 576px){
+	.main-header{
+		font-size: 4rem;
+	}
+}
+
+.text-content{
+	letter-spacing: 0.025rem;
+	font-size: 0.875rem;
+	color: var(--clr-gray);
+}
+
+.section-header{
+	font-weight: bold;
+	color: var(--clr-dark);
+}
+
+.section-header-about{
+	font-weight: bold;
+	color: white;
+}
+
+section{
+	scroll-margin-top: 4rem;
+}
+
+.division{
+	font-weight: bold;
+}
+h3{
+	font-weight: bold;
+	color: $white;
+}
+
+.my-photo{
+	object-fit: cover;
+	width: 100%;
+	border-radius: 1rem;	
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+.skill-name{
+	font-weight: bold;
+}
+
+.pgbar{
+	background: #0563bb;
+}
